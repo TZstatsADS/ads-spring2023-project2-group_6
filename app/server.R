@@ -5,10 +5,11 @@ library(shiny)
 library(shinydashboard)
 library(dygraphs)
 library(xts)
+library(rgdal)
 
 
 # read data
-data <- as_tibble(fread('MTA_dataset.csv',header = T))
+data <- as_tibble(fread('MTA_dataset.csv', header = T))
 # modify data
 data <- data %>%
   mutate(incident_date = as.Date(data$week_start, format = "%m/%d/%Y"))
@@ -21,8 +22,11 @@ server <- function(input, output) {
       filter(week_start > input$dates[1] & week_start < input$dates[2]) 
   })
   
+  subway_map <- readOGR(dsn = "geo_export_1b991b55-24f5-4e63-9418-b365b941218f.shp")
+  
   output$subwayMap <- renderLeaflet({
     leaflet(filteredData()) %>%
+      addPolylines(data = subway_map, color = "blue", weight = 2) %>%
       addTiles(group = 'OSM') %>%
       addProviderTiles('Esri.WorldStreetMap', group = 'Esri') %>%
       addProviderTiles('CartoDB.Positron', group = 'CartoDB') %>%
@@ -35,7 +39,4 @@ server <- function(input, output) {
         options = layersControlOptions(collapsed = FALSE)
       )
   })
-  
-  
- 
 }
