@@ -49,13 +49,11 @@ body <- dashboardBody(
     ),
     column(width =8,
            box(width = NULL, solidHeader = TRUE,
-               leafletOutput('subwayMap',height = 500)),
-           box(width = NULL, 
-               dygraphOutput('plot1')
+               leafletOutput('subwayMap',height = 500))
            )
     )
   )
-)
+
 
 
 ui <- dashboardPage(skin = 'blue',

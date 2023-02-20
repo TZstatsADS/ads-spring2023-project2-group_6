@@ -114,8 +114,10 @@ data <- as_tibble(fread('MTA_dataset.csv',header = T))
 
 
 
+data <- as_tibble(fread('MTA_dataset.csv', header = T))
 
-
+data %>%
+  select(lat, long, week_start, week_end )
 
 
 
