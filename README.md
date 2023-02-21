@@ -1,4 +1,4 @@
-# Project 2: Shiny App Development
+# Project 2: Shiny App Development - NYC MTA & Traffic Tracker Dashboard
 
 ### [Project Description](doc/project2_desc.md)
 
@@ -6,30 +6,27 @@ Term: Spring 2023
 
 ![screenshot](doc/figs/map.jpg)
 
-In this second project of GR5243 Applied Data Science, we develop a *Exploratory Data Analysis and Visualization* shiny app on the work of a **NYC government agency/program** of your choice using NYC open data released on the [NYC Open Data By Agency](https://opendata.cityofnewyork.us/data/) website. In particular, many agencies have adjusted their work or rolled out new programs due to COVID, your app should provide ways for a user to explore quantiative measures of how covid has impacted daily life in NYC from different prospectives. See [Project 2 Description](doc/project2_desc.md) for more details.  
+ 
 
-The **learning goals** for this project is:
-
-- business intelligence for data science
-- data cleaning
-- data visualization
-- systems development/design life cycle
-- shiny app/shiny server
-
-*The above general statement about project 2 can be removed once you are finished with your project. It is optional.
-
-## Project Title Lorem ipsum dolor sit amet
+## NYC MTA & Traffic Tracker Dashboard : The Impact of Covid-19 to NYC's Hustle & Bustle
 Term: Spring 2023
 
 + Team #
-+ **Projec title**: + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
++ **NYC MTA & Traffic Tracker Dashboard : The Impact of Covid-19 to NYC's Hustle & Bustle**: + Team members
+	+ Denise Sonia
+	+ Jiahao Wei
+	+ Junhan Huang
+	+ Saloni Dingore
+	+ Yi Sun
 
-+ **Project summary**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ **Project summary**: New Yorkers heavily relied on public transportation, with the city being so packed up with more building constructions it is fairly an inevitable choice for them. The pandemic has impacted the world in a lot of ways, especially in transportation and commuting, there is a decreasing trend in almost every city in the world, but as public transportation became an inevitable choice for New Yorker, we want to see if there are any changes in ridership with MTA Subway & Bus despite the pandemic. 
+
+This project is aimed to help MTA track the subway ridership a to prove that hypothesis made that even in the pandemic New Yorkers would still rely on public transportation for their commute. This analysis would be divided into three parts : 
+	+ MTA Ridership on each Subway Stations
+	+ Ridership Payment Type Analysis
+	+ General Traffic Visualization (for Comparison)
+	+ Bus & Subway Ridership Statistics
+
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
