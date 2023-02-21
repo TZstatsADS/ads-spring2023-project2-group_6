@@ -23,7 +23,7 @@ Term: Spring 2023
 + **Project summary**:   
 
     
-New Yorkers heavily relied on public transportation, with the city being so packed up with more building constructions it is fairly an inevitable choice for them. The pandemic has impacted the world in a lot of ways, especially in transportation and commuting, there is a decreasing trend in almost every city in the world, but as public transportation became an inevitable choice for New Yorker, we want to see if there are any changes in ridership with MTA Subway & Bus despite the pandemic. 
+New Yorkers heavily relied on public transportation especially the Subway and Bus, with the city being so packed up with more building constructions it is fairly an inevitable choice for them. The pandemic has impacted the world in a lot of ways, especially in transportation and commuting, there is a decreasing trend in almost every city in the world, but as public transportation became an inevitable choice for New Yorker, we want to see if there are any changes in ridership with MTA Subway & Bus despite the pandemic. 
 
 This project is aimed to help MTA track the subway ridership a to prove that hypothesis made that even in the pandemic New Yorkers would still rely on public transportation for their commute. This analysis would be divided into three parts : <br />   
 	1. MTA Ridership on each Subway Stations. <br />
