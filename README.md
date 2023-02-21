@@ -12,7 +12,6 @@ Term: Spring 2023
 ## NYC MTA & Traffic Tracker Dashboard : The Impact of Covid-19 to NYC's Hustle & Bustle
 Term: Spring 2023
 
-+ Team #
 + **NYC MTA & Traffic Tracker Dashboard : The Impact of Covid-19 to NYC's Hustle & Bustle**: + Team members
 	+ Denise Rahmadina 
 	+ Jiahao Wei
