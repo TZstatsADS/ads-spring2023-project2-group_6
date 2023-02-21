@@ -29,6 +29,8 @@ This project is aimed to help MTA track the subway ridership a to prove that hyp
 	2. Ridership Payment Type Analysis. <br />
 	3. General Traffic Visualization (for Comparison). <br />
 	4. Bus & Subway Ridership Statistics. <br />
+	
+Our limitation includes not incorporating other types of public transporation yet (e.g Ferry, Bikes, etc).
 
 </div>
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
