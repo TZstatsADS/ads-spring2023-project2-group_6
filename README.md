@@ -13,7 +13,7 @@ Term: Spring 2023
 
 + Team #
 + **NYC MTA & Traffic Tracker Dashboard : The Impact of Covid-19 to NYC's Hustle & Bustle**: + Team members
-	+ Denise Sonia
+	+ Denise Rahmadina 
 	+ Jiahao Wei
 	+ Junhan Huang
 	+ Saloni Dingore
