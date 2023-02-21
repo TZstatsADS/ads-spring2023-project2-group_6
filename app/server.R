@@ -46,7 +46,9 @@ server <- function(input, output) {
      addMarkers(
        ~long, ~lat, label= ~sum_fares, 
        clusterOptions = markerClusterOptions(),
-       labelOptions = labelOptions(noHide = TRUE)
+       labelOptions = labelOptions(noHide = FALSE),
+       icon = list(iconUrl = 'https://cdn4.iconfinder.com/data/icons/travel-filled-outline-3/64/transport-train-railway-public-transportation-subway-256.png',
+                   iconSize = c(40,40))
        
      ) %>%
      addLayersControl(
