@@ -1,4 +1,4 @@
-<p align="justify">
+
 # Project 2: Shiny App Development - NYC MTA & Traffic Tracker Dashboard
 
 ### [Project Description](doc/project2_desc.md)
@@ -48,4 +48,4 @@ proj/
 
 Please see each subfolder for a README file.
 
-</p>
+
