@@ -5,7 +5,7 @@
 
 Term: Spring 2023
 
-![screenshot](doc/figs/Screen Shot 2023-02-21 at 6.50.12 PM.png)
+![screenshot](doc/figs/subway.png)
 
  
 
