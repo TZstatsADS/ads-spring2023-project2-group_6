@@ -23,11 +23,11 @@ Term: Spring 2023
 
 New Yorkers heavily relied on public transportation, with the city being so packed up with more building constructions it is fairly an inevitable choice for them. The pandemic has impacted the world in a lot of ways, especially in transportation and commuting, there is a decreasing trend in almost every city in the world, but as public transportation became an inevitable choice for New Yorker, we want to see if there are any changes in ridership with MTA Subway & Bus despite the pandemic. 
 
-This project is aimed to help MTA track the subway ridership a to prove that hypothesis made that even in the pandemic New Yorkers would still rely on public transportation for their commute. This analysis would be divided into three parts :   
-	1. MTA Ridership on each Subway Stations. 
-	2. Ridership Payment Type Analysis. 
-	3. General Traffic Visualization (for Comparison). 
-	4. Bus & Subway Ridership Statistics. 
+This project is aimed to help MTA track the subway ridership a to prove that hypothesis made that even in the pandemic New Yorkers would still rely on public transportation for their commute. This analysis would be divided into three parts : <br />   
+	1. MTA Ridership on each Subway Stations. <br />
+	2. Ridership Payment Type Analysis. <br />
+	3. General Traffic Visualization (for Comparison). <br />
+	4. Bus & Subway Ridership Statistics. <br />
 
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
