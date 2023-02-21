@@ -6,6 +6,15 @@ library(ggmap) # For producing a static map
 library(ggtext) # For adding some flair to ggplot
 library(leaflet) # For Making Interactive Plots
 library(rvest) # For Web Scraping Links to Download
+library(dplyr)
+library(data.table)
+library(leaflet)
+library(shiny)
+library(shinydashboard)
+library(dygraphs)
+library(xts)
+library(rgdal)
+require(rgdal)
 
 #Gather dataset from MTA Website
 dataset <- read_html("http://web.mta.info/developers/fare.html") %>%
@@ -116,8 +125,39 @@ data <- as_tibble(fread('MTA_dataset.csv',header = T))
 
 data <- as_tibble(fread('MTA_dataset.csv', header = T))
 
-data %>%
-  select(lat, long, week_start, week_end )
+data <- data %>%
+  mutate(dates = as.Date(data$week_start, format = "%m/%d/%Y"))
 
+data <- data %>%
+  select(lat, long, fares, dates) %>%
+  group_by(lat, long, dates) %>% 
+  summarise(sum_fares= sum(fares))
+
+#data.expanded <- data[rep(row.names(data), data$sum_fares),]
+
+data <- data %>%
+  select(lat, long, fares, dates) %>%
+  group_by(fare_type, lat, long, dates) %>% 
+  summarise(sum_fares= sum(fares))
+
+setDT(data)
+data <- data[, .(
+  Fares = sum(sum_fares)
+), .(lat, long)]
+subway_map <- readOGR(dsn = "/Users/denisesonia/ads-spring2023-project2-group_6/data/geo_export_1b991b55-24f5-4e63-9418-b365b941218f.shp")
+leaflet(data) %>%
+  addPolylines(data = subway_map, color = "blue", weight = 2) %>%
+  addTiles(group = 'OSM') %>%
+  addProviderTiles('Esri.WorldStreetMap', group = 'Esri') %>%
+  addProviderTiles('CartoDB.Positron', group = 'CartoDB') %>%
+  addMarkers(
+    ~long, ~lat, label = ~Fares, 
+    clusterOptions = markerClusterOptions(),
+    labelOptions = labelOptions(noHide = TRUE)
+  ) %>%
+  addLayersControl(
+    baseGroups = c('OSM', 'Esri', 'CartoDB'),
+    options = layersControlOptions(collapsed = FALSE)
+  )
 
 

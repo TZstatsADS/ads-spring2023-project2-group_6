@@ -30,10 +30,10 @@ body <- dashboardBody(
     column(width =4,
            box(width = NULL, title =tagList(shiny::icon("filter",class = 'fa-lg'), "Filter Data") ,
                solidHeader = T, collapsible = T, status = 'primary',
-               selectizeInput('fare_type','Fare Type', choices = type, width = 380,
-                              selected = c('Full Fare', '30-Day Unlimited',"7-Day Unlimited",
-                                           "Student","Senior Citizen/Disabled","Annual Metrocard",
-                                           "EasyPayXpress","Other Fares"),multiple = T),
+               #selectizeInput('type','Fare Type', choices = type, width = 380,
+                              #selected = c('Full Fare', '30-Day Unlimited',"7-Day Unlimited",
+                                           #"Student","Senior Citizen/Disabled","Annual Metrocard",
+                                           #"EasyPayXpress","Other Fares"),multiple = T),
                dateRangeInput('dates', label = "Date Range",width = 380,
                               start = '2019-11-01', end = '2022-01-01',
                               min = "2019-11-01", max = "2022-01-01"
@@ -56,7 +56,7 @@ body <- dashboardBody(
 
 
 
-ui <- dashboardPage(skin = 'blue',
+ui <- dashboardPage(skin = 'black',
                     header,
                     dashboardSidebar(disable = T),
                     body
