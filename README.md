@@ -30,8 +30,7 @@ New Yorkers heavily relied on public transportation especially the Subway and Bu
 This project is aimed to help MTA track the subway ridership a to prove that hypothesis made that even in the pandemic New Yorkers would still rely on public transportation for their commute. This analysis would be divided into three parts : <br />   
 	1. MTA Ridership on each Subway Stations. <br />
 	2. Ridership Payment Type Analysis. <br />
-	3. General Traffic Visualization (for Comparison). <br />
-	4. Bus & Subway Ridership Statistics. <br />
+	3. Bus & Subway Ridership Statistics. <br />
 	
 Our limitation includes not incorporating other types of public transporation yet (e.g Ferry, Bikes, etc).
 
