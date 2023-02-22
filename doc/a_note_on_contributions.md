@@ -23,7 +23,7 @@ Junhan Huang implemented all UI beautification and was in charge of the "Intro" 
 
 Saloni Dingore carried out data preprocessing and manipulation for the MTA (Subway) data and was in charge for "Payment" tab. 
 
-Yi Sun carried data processing and manipulation for ridership data for Subway & Bus, and was in charge for “Bus vs. Subway Statistics tab”.  Moreover, since our group focused on MTA subway, Yi Sun conducted an analysis between Subway’s ridership and Covid at two extreme periods and based on news we did find a relationship between them.
+Yi Sun carried data processing and manipulation for ridership data for Subway & Bus, and was in charge for “Ridership” tab. Moreover, since our group focused on MTA subway, Yi Sun conducted an analysis between Subway’s ridership and Covid at two extreme periods and based on news we did find a relationship between them.
 
 All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
 
