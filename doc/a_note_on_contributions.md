@@ -23,7 +23,7 @@ Junhan Huang carried out data preprocessing and manipulation for the traffic dat
 
 Saloni Dingore carried data preprocessing and manipulation for the MTA (Subway) data and was in charge for "Payment Type" tab. 
 
-Yi Sun carried data preprocessing and manipulation for the MTA (Subway) data and was in charge for "Bus vs. Subway Statistics" tab. 
+Yi Sun carried data preprocessing and manipulation for the Bus data and was in charge for "Bus vs. Subway Statistics" tab. 
 
 All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
 
